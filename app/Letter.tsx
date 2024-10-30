@@ -33,8 +33,8 @@ const Letter: React.FC = () => {
               <p>
                 Dear Grandma, 🌸
                 <br />
-                Just wanted to send you a big virtual hug and all the love in the world! I;m thinking of you and can’t
-                wait to see you feeling better soon. Take it easy, and remember, you’ve got this! 💪❤️
+                Just wanted to send you a big virtual hug and all the love in the world! I'm thinking about you and
+                can’t wait to see you feeling better soon. Take it easy, and remember, you’ve got this! 💪❤️
               </p>
               <button className={styles.closeButton} onClick={() => setIsOpen(false)}>
                 Close
