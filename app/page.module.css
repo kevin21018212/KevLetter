@@ -68,10 +68,7 @@
   padding: 0 20px;
   border: none;
   border: 1px solid transparent;
-  transition:
-    background 0.2s,
-    color 0.2s,
-    border-color 0.2s;
+  transition: background 0.2s, color 0.2s, border-color 0.2s;
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -165,4 +162,35 @@ a.secondary {
   .logo {
     filter: invert();
   }
+}
+
+.homeContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #e0f7fa; /* Light blue for sky */
+  font-family: Arial, sans-serif;
+  position: relative;
+  overflow: hidden;
+}
+
+.mailbox {
+  width: 300px;
+  height: 250px;
+  background: #bdbdbd;
+  border-radius: 20px;
+  border: 3px solid #757575;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mailboxPole {
+  width: 40px;
+  height: 40vh;
+  background: #757575;
+  z-index: 0;
 }
